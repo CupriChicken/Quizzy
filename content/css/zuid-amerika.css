@@ -1,0 +1,14 @@
+body{
+    background-color: #264653;
+    color: #F4A261;
+    margin: 5px;
+}
+
+a {
+    color: #F4A261;
+  }
+
+#header{
+    background-color: #8D4A39;
+    font-size: xx-large;
+}

@@ -10,5 +10,10 @@ a {
 
 #header{
     background-color: #8D4A39;
+    font-family: madimione;
     font-size: xx-large;
+}
+
+.intro{
+    font-family: madimione;
 }

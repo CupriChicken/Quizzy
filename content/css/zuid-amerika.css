@@ -30,8 +30,7 @@ a {
 }
 
 nav a{
-    padding: 1rem 4%;
-    font-size: 2.5rem;
+    font-size: xx-large;
 }
 
 
@@ -46,7 +45,7 @@ nav a{
 
 #dropdown-nav{
     display: none;
-    background-color: red;
+    background-color: #346477;
 }
 
 #dropdown-nav li{
@@ -60,7 +59,7 @@ nav a{
 }
 
 #dropdown-color:hover{
-    color: purple;
+    color: #F4A261;
     border-bottom: 3px solid transparent;
 }
 

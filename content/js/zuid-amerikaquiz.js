@@ -1,0 +1,1 @@
+console.log('zuid-amerikaquiz.js loaded');

@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "left middle right";
+    height: 100vh;
+    margin: 0;
+}
+
+#left {
+    grid-area: left;
+    background-color: #0280BA;
+}
+
+#left img {
+    width: 100%;
+}
+
+#infoText{
+    margin: 1em;
+    color: #fff;
+    font-family: 'montserrat';
+}
+
+h1 {
+    font-family: 'madimione';
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+
+.button {
+    display: block;
+    font-family: 'madimione';
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.button:hover {
+    scale: 1.05;
+    background-color: #fff;
+    color: #0280BA;
+}
+
+
+#middle {
+    grid-area: middle;
+}
+#right {
+    grid-area: right;
+    background-color: #0280BA;
+}

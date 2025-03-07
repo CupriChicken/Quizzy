@@ -1,6 +1,7 @@
 body{
     background-color: #264653;
     color: #F4A261;
+    font-family: madimione;
     margin: 5px;
 }
 
@@ -10,16 +11,15 @@ a {
 
 #header{
     background-color: #8D4A39;
-    font-family: madimione;
     font-size: xx-large;
 }
 
 #intro{
-    font-family: madimione;
+
 }
 
 #paragraaf{
-  font-family: madimione;
+
 }
 
 #qlink {
@@ -33,3 +33,4 @@ a {
 #qlink:hover {
   background-color: red;
 }
+

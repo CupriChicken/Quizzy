@@ -5,16 +5,8 @@ body{
 }
 
 a {
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #F4A261;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  }
-  a:hover {
-    box-shadow: inset 100px 0 0 0 #2A9D8F;
-    color: white;
-  }
+  text-decoration: none;
+}
 
 #header{
     background-color: #8D4A39;
@@ -22,6 +14,22 @@ a {
     font-size: xx-large;
 }
 
-.intro{
+#intro{
     font-family: madimione;
+}
+
+#paragraaf{
+  font-family: madimione;
+}
+
+#qlink {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+}
+
+#qlink:hover {
+  background-color: red;
 }

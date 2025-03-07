@@ -58,6 +58,10 @@ nav a#active{
     margin-right: 25px;
 }
 
+#color-menu{
+    color: purple;
+}
+
 #dropdown-nav{
     display: none;
     background-color: transparent;
@@ -85,4 +89,14 @@ nav a#active{
 
 main{
     color: wheat;
+}
+
+#head{
+    justify-items: center;
+}
+
+#page-content{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 125px;
 }

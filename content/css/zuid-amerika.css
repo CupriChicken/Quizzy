@@ -12,14 +12,9 @@ a {
 #header{
     background-color: #8D4A39;
     font-size: xx-large;
-}
-
-#intro{
-
-}
-
-#paragraaf{
-
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 #qlink {
@@ -34,3 +29,49 @@ a {
   background-color: red;
 }
 
+
+
+
+
+nav a{
+    padding: 1rem 4%;
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+}
+nav a:hover,
+nav a#active{
+    color: purple;
+}
+
+#main-nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+#dropdown-nav{
+    display: none;
+    background-color: transparent;
+}
+
+#dropdown-nav li{
+    margin: 5px;
+    padding: 5px;
+}
+
+#main-nav li:hover #dropdown-nav{
+    display: block;
+    position: absolute;
+}
+
+#dropdown-color:hover{
+    color: purple;
+    border-bottom: 3px solid transparent;
+}
+
+#dropdown{
+    font-size: 1.75rem;
+}

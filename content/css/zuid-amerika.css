@@ -4,10 +4,13 @@ body{
     margin: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #header{
     background-color: #8D4A39;
     font-family: madimione;
-    text-decoration: none;
     font-size: xx-large;
 }
 
@@ -24,7 +27,6 @@ body{
   color: white;
   padding: 15px 25px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
 }
 

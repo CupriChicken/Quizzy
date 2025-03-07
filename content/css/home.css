@@ -25,12 +25,53 @@ body {
     width: 30vw;
     height: 90vh;
     margin-right: 2em;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     border: #fff 5px solid;
     border-radius: 10px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: ease-in-out 0.5s;
+}
+
+#afrika:hover, #zuid_amerika:hover, #europa:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px #777777;
+}
+
+#afrika {
+    background-image: url(../../media/africa.jpg);
+}
+#zuid_amerika {
+    background-image: url(../../media/south_america.jpg);
+}
+#europa {
+    background-image: url(../../media/europe-map.jpg);
+}
+
+.cardContainer{
+    position: relative;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "."
+    "card";
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    grid-area: card;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 5px 5px;
+    padding: 1em;
+    font-family: 'madimione';
+    font-size: 2rem;
+    overflow: auto;
+}
+a {
+    color: #fff;
+    text-decoration: underline #fff;
+    font-weight: bold;
 }

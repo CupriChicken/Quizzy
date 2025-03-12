@@ -9,7 +9,7 @@ body {
 
 #left {
     grid-area: left;
-    background-color: #0280BA;
+    background-color: #264653;
 }
 
 #left img {
@@ -37,7 +37,7 @@ hr {
     display: block;
     font-family: 'madimione';
     font-size: 1em;
-    color: #fff;
+    color: #F4A261;
     text-decoration: none;
     padding: 5px;
     margin: 5px;
@@ -48,8 +48,8 @@ hr {
 }
 .button:hover {
     scale: 1.05;
-    background-color: #fff;
-    color: #0280BA;
+    background-color: #8D4A39;
+    color: #F4A261;
 }
 
 
@@ -58,5 +58,5 @@ hr {
 }
 #right {
     grid-area: right;
-    background-color: #0280BA;
+    background-color: #264653;
 }

@@ -92,6 +92,34 @@ main img {
     "antwoord3 antwoord4";
 }
 
+textarea {
+    resize: none;
+    width: 75%;
+    height: 10vh;
+    font-family: 'montserrat';
+    font-size: 1.3em;
+    padding: 0.5em;
+    border: #0280BA 5px solid;
+    border-radius: 10px;
+}
+#nakijken {
+    text-align: center;
+    font-size: 1.5em;
+    width: 25%;
+    border: #0280BA 5px solid;
+    border-radius: 10px;
+    padding: 1em;
+    font-family: 'madimione';
+    cursor: pointer;
+    margin: 1em;
+    transition: ease-in-out 0.5s;
+}
+#nakijken:hover {
+    scale: 1.05;
+    background-color: #0280BA;
+    color: #fff;
+}
+
 #antwoord1, #antwoord2, #antwoord3, #antwoord4{
     width: 25vw;
     height: auto;

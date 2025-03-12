@@ -61,3 +61,10 @@ hr {
     grid-area: right;
     background-color: #264653;
 }
+
+#resultaat{
+    padding: 2em;
+    text-align: center;
+    color: #F4A261;
+    font-family: 'madimione';
+}

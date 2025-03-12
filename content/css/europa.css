@@ -97,6 +97,12 @@ main{
     font-size: 1.25rem;
 }
 
+#photo{
+    border: 3px transparent purple;
+    margin-left: 1000px;
+    margin-top: -1000px;
+}
+
 #button{
     margin-top: 325px;
     margin-left: 100px;

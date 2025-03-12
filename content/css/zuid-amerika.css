@@ -53,7 +53,6 @@ hr {
     color: #F4A261;
 }
 
-
 #middle {
     grid-area: middle;
 }
@@ -67,4 +66,71 @@ hr {
     text-align: center;
     color: #F4A261;
     font-family: 'madimione';
+}
+
+#vraagContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+main img {
+    width: 100%;
+    border: 5px solid #8D4A39;
+    border-radius: 10px;
+}
+
+#image {
+    width: 40%;
+}
+
+#vraag {
+    width: 100%;
+    margin: 1em;
+    font-family: 'madimione';
+    color: #F4A261;
+    font-size: 1.5em;
+}
+
+#antwoorden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "antwoord1 antwoord2"
+    "antwoord3 antwoord4";
+}
+
+#antwoord1, #antwoord2, #antwoord3, #antwoord4{
+    width: 25vw;
+    height: auto;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'montserrat';
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+#antwoord1:hover, #antwoord2:hover, #antwoord3:hover, #antwoord4:hover{
+    scale: 1.05;
+    box-shadow: 0 5px 15px #0000004d;
+}
+#antwoord1{
+    background-color: #E76F51;
+    grid-area: antwoord1;
+}
+#antwoord2{
+    background-color: #004169;
+    grid-area: antwoord2;
+}
+#antwoord3{
+    background-color: #E9C46A;
+    grid-area: antwoord3;
+}
+#antwoord4{
+    background-color: #2A9D8F;
+    grid-area: antwoord4;
 }

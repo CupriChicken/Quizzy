@@ -1,1 +1,1 @@
-console.log('zuid-amerikaquiz.js loaded');
+console.log('zuid-amerikaquiz.js succesfully loaded');

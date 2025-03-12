@@ -17,22 +17,6 @@ a {
     align-items: center;
 }
 
-#qlink {
-    background-color: #f44336;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    display: inline-block;
-}
-
-#qlink:hover {
-    background-color: red;
-}
-
-nav a {
-    font-size: xx-large;
-}
-
 #main-nav {
     display: flex;
     gap: 20px;

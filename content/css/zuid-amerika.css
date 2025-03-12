@@ -1,64 +1,70 @@
 body {
+    background-color: #418ba8;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "left middle right";
+    height: 100vh;
+    margin: 0;
+}
+
+#left {
+    grid-area: left;
     background-color: #264653;
+}
+
+#left img {
+    width: 100%;
+}
+
+#infoText{
+    margin: 1em;
     color: #F4A261;
-    font-family: madimione;
-    margin: 5px;
+    font-family: 'montserrat';
 }
 
-a {
-    text-decoration: none;
+h1 {
+    font-family: 'madimione';
+    text-align: center;
 }
 
-#header {
-    background-color: #8D4A39;
-    font-size: xx-large;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+hr {
+    border: 2px solid #8D4A39;
+    border-radius: 10px;
+    
 }
 
-#main-nav {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 5px;
-    padding: 5px;
-}
-
-#dropdown-nav {
-    display: none;
-    background-color: #346477;
-}
-
-#dropdown-nav li {
-    margin: 5px;
-    padding: 5px;
-}
-
-#dropdown-nav a {
-    color: #F4A261;
-    font-size: 1.75rem;
-}
-
-#dropdown-nav li:hover {
-    background-color: #3B6E7F;
-}
-
-#dropdown-nav li:hover a {
-    color: #FF6347;
-}
-
-#main-nav li:hover #dropdown-nav {
+.button {
     display: block;
-    position: absolute;
-}
-
-#dropdown-color:hover {
+    font-family: 'madimione';
+    font-size: 1em;
     color: #F4A261;
-    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid #8D4A39;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.button:hover {
+    scale: 1.05;
+    background-color: #8D4A39;
+    color: #F4A261;
 }
 
-#dropdown {
-    font-size: 1.75rem;
+
+#middle {
+    grid-area: middle;
+}
+#right {
+    grid-area: right;
+    background-color: #264653;
+}
+
+#resultaat{
+    padding: 2em;
+    text-align: center;
+    color: #F4A261;
+    font-family: 'madimione';
 }

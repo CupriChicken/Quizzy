@@ -77,11 +77,6 @@ nav a#active{
     right: 20px;
 }
 
-#dropdown-color:hover{
-    color: purple;
-    border-bottom: 3px solid transparent;
-}
-
 #dropdown{
     font-size: 1.75rem;
 }
@@ -91,11 +86,20 @@ main{
 }
 
 #head{
-    justify-items: center;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 #page-content{
     position: relative;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-left: 125px;
+    font-size: 1.25rem;
+}
+
+#button{
+    margin-top: 325px;
+    margin-left: 100px;
+    font-size: 50px;
+    border-radius: 12.5%;
 }

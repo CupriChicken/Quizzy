@@ -86,7 +86,7 @@ main{
 }
 
 #head{
-    justify-items: center;
+    text-align: center;
     font-size: 1.5rem;
 }
 

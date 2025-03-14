@@ -232,8 +232,7 @@ content{
     grid-area: antwoord4;
 }
 
-
-#right {
+#right{
     grid-area: right;
     color: wheat;
 }
@@ -242,23 +241,26 @@ content{
 }
 
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 1920px){
     #side-bar a{
       padding: 0.75rem;
     }
     #middle img{
         width: 75%;
-        border: 5px solid #0280BA;
-        border-radius: 10px;
     }
-    
-    #picture{
-        width: 40%;
-    }
+
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 2560px){
     #side-bar a{
       padding: 1.85rem;
+    }
+    .questions{
+        width: 100%;
+    }
+    #answer1, #answer2, #answer3, #answer4{
+        width: 30vw;
+        padding: 1.25em;
+        margin: 0.75em;
     }
 }

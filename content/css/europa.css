@@ -30,7 +30,7 @@ header{
 #logo{
     font-size: 2.5rem;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 50px;
     transition: ease-in-out 0.7s;
 }
 
@@ -55,7 +55,7 @@ nav a#active{
     list-style-type: none;
     margin: 5px;
     padding: 5px;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 
 #color-menu{
@@ -75,7 +75,7 @@ nav a#active{
 #main-nav li:hover #dropdown-nav{
     display: block;
     position: absolute;
-    right: 1.25rem;
+    right: 1.75rem;
 }
 
 #dropdown{
@@ -242,8 +242,23 @@ content{
 }
 
 
+@media (min-width: 1920px) {
+    #side-bar a{
+      padding: 0.75rem;
+    }
+    #middle img{
+        width: 75%;
+        border: 5px solid #0280BA;
+        border-radius: 10px;
+    }
+    
+    #picture{
+        width: 40%;
+    }
+}
+
 @media (min-width: 2560px) {
-    #side-bar a {
+    #side-bar a{
       padding: 1.85rem;
     }
-  }
+}

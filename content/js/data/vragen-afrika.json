@@ -1,6 +1,8 @@
 {
     "vragen": [
         {
+            "plaatje": "../../media/droogte.jpg",
+            "alt": "Droogte",
             "vraag": "Vraag1?",
             "openVraag": false,
             "vraagNummer": 1,
@@ -17,6 +19,24 @@
             "openVraag": true,
             "vraagNummer": 2,
             "antwoorden": "Antwoord2"
+        },
+        {
+            "vraag": "Vraag3?",
+            "openVraag": false,
+            "vraagNummer": 3,
+            "juisteAntwoord": 3,
+            "antwoorden": [
+                "Antwoord1",
+                "Antwoord2",
+                "Antwoord3",
+                "Antwoord4"
+            ]
+        },
+        {
+            "vraag": "Vraag4?",
+            "openVraag": true,
+            "vraagNummer": 4,
+            "antwoorden": "Antwoord4"
         }
     ]
 }

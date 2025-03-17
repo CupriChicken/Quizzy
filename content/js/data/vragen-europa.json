@@ -1,0 +1,22 @@
+{
+    "vragen": [
+        {
+            "vraag": "Vraag1?",
+            "openVraag": false,
+            "vraagNummer": 1,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Antwoord1",
+                "Antwoord2",
+                "Antwoord3",
+                "Antwoord4"
+            ]
+        },
+        {
+            "vraag": "Vraag2?",
+            "openVraag": true,
+            "vraagNummer": 2,
+            "antwoorden": "Antwoord2"
+        }
+    ]
+}

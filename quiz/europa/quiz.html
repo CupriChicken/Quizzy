@@ -55,20 +55,28 @@
     <main id="middle">
         <div id="question-container">
             <div id="picture">
-                <img src="../../media/boat.jpg" alt="">
+                <img src="../../media/boat.jpg" alt="" id="image">
             </div>
-            <div id="question">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum tenetur? Odit labore deleniti magni minus hic eius possimus cumque dicta, autem debitis facere ab sequi natus cum molestias?
-            </div>
+            <div id="question"> </div>
             <div id="answer">
                 <textarea name="answer" id="answer" placeholder="Vul hier uw antwoord in"></textarea>
             </div>
             <div id="answers">
-                <div id="answer1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum nesciunt non nobis dignissimos quo hic, minima aliquam eius ut recusandae accusamus dolore delectus obcaecati quasi sed molestiae, temporibus beatae?</div>
-                <div id="answer2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore libero laborum expedita harum ratione aliquid animi nemo sint distinctio voluptas nihil nam quam, tenetur dolor sunt recusandae! Consequatur, tenetur enim?</div>
-                <div id="answer3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quis nam suscipit modi nulla pariatur eligendi tempore dignissimos, iusto, ullam excepturi veniam itaque consequatur totam impedit voluptatem architecto placeat id.</div>
-                <div id="answer4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt vero nemo natus deleniti at, expedita veritatis hic ducimus quasi sapiente totam praesentium, illo neque ipsa iure asperiores! Similique, nihil.</div>
+                <div id="answer1" onclick="checkAntwoord(0)"> </div>
+                <div id="answer2" onclick="checkAntwoord(1)"> </div>
+                <div id="answer3" onclick="checkAntwoord(2)"> </div>
+                <div id="answer4" onclick="checkAntwoord(3)"> </div>
             </div>
+        </div>
+        <div id="resultaten">
+            <h1>Je hebt de quiz afgerond!</h1>
+            <h2>Je hebt <span id="vragen"></span> van de <span id="vragenMax"></span> vragen goed beantwoord!</h2>
+            <br>
+
+                <img src="../../media/trophy.svg" alt="" id="trophy">
+
+            <h2>Je hebt <span id="score"></span> punten gehaald!!! &#x1F973;&#x1F389;</h2>
+            <br>
         </div>
     </main>
     <div id="right">

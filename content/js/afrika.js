@@ -114,7 +114,7 @@ async function DisplayResultaten() {
     resultaten.style.display = 'flex';
     
 
-    vragen.innerHTML = goedBeantwoord - 1;
+    vragen.innerHTML = goedBeantwoord;
     vragenMax.innerHTML = data.vragen.length;
     scoreDisplay.innerHTML = score * 100;
 }

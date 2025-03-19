@@ -1,42 +1,134 @@
 {
     "vragen": [
         {
-            "plaatje": "../../media/droogte.jpg",
-            "alt": "Droogte",
-            "vraag": "Vraag1?",
+            "vraag": "Wat gebeurt er bij verwoestijning?",
+            "plaatje": "../../media/afrika/desertification-1.jpg",
+            "alt": "Een kaart van Afrika met de gebieden aangeven die worden bedreigd door woestijnvorming.",
             "openVraag": false,
-            "vraagNummer": 1,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "Vruchtbare stukken grond veranderen in woestijn door overbegrazing, slechte landbouwmethoden of verzilting.",
+                "Er wordt een nieuwe woestijn ontdekt, en deze krijgt een naam.",
+                "De woestijn wordt kleiner door overbegrazing, slechte landbouwmethoden of verzilting.",
+                "Een land dat voor 65% uit woestijn bestaat."
+            ]
+        },
+        {
+            "vraag": "Hoe ontstaat verzilting?",
+            "plaatje": "../../media/afrika/verzilting.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden": [
+                "Mensen gooien zout in op het land waardoor het land onvruchtbaar wordt.",
+                "Door het zout dat in de regen zit op het land terecht komt.",
+                "Door slechte irrigatie komt er veel water in de grond, dit water zakt, en als het weer omhoog komt neemt het zout mee.",
+                "Door de zon die het zout uit de zee verdampt en het zout op het land terecht laat terecht komen."
+            ]
+        },
+        {
+            "vraag": "Hoe kun je verzilting voorkomen?",
+            "plaatje": "../../media/afrika/verzilting.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": false,
             "juisteAntwoord": 1,
             "antwoorden": [
-                "Antwoord1",
-                "Antwoord2",
-                "Antwoord3",
-                "Antwoord4"
+                "Door druppel irrigatie te gebruiken.",
+                "Door het zout van het land te rapen.",
+                "Door dieren op het land te laten grazen.",
+                "Door het land laten overstromen door de zee."
             ]
         },
         {
-            "vraag": "Vraag2?",
-            "openVraag": true,
-            "vraagNummer": 2,
-            "antwoorden": "Antwoord2"
+            "vraag": "Wat is een andere manier waardoor verzilting kan ontstaan?",
+            "plaatje": "../../media/afrika/verzilting.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden": [
+                "Door een tekort aan planten op het land.",
+                "Door een tekort aan zout in de grond.",
+                "Zout water (kewl) dat vanuit de zee via de grond in het land terecht komt.",
+                "Door een overvloed aan van vee dat op het land graast."
+            ]
         },
         {
-            "vraag": "Vraag3?",
+            "vraag": "Wat is overbegrazing?",
+            "plaatje": "../../media/afrika/overgrazing.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door overbegrazing.",
             "openVraag": false,
-            "vraagNummer": 3,
             "juisteAntwoord": 3,
             "antwoorden": [
-                "Antwoord1",
-                "Antwoord2",
-                "Antwoord3",
-                "Antwoord4"
+                "Een stuk land dat te veel planten heeft, waardoor er geen ruimte is voor dieren.",
+                "Een tekort aan vee op een stuk land, waardoor de planten niet goed terug kunnen groeien.",
+                "Een stuk land dat te veel planten heeft, waardoor er geen ruimte is voor nieuwe planten.",
+                "Een overvloed aan vee op een stuk land, die alle planten op eten, waardoor de planten niet goed terug kunnen groeien."
             ]
         },
         {
-            "vraag": "Vraag4?",
-            "openVraag": true,
-            "vraagNummer": 4,
-            "antwoorden": "Antwoord4"
+            "vraag": "Wat is het gevolg van overbegrazing?",
+            "plaatje": "../../media/afrika/overgrazing.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door overbegrazing.",
+            "openVraag": false,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Er ontstaat verzilting.",
+                "Er ontstaat verwoestijning.",
+                "Er ontstaat een overvloed aan planten.",
+                "Er ontstaat een overvloed aan dieren."
+            ]
+        },
+        {
+            "vraag": "Hoe zou je overbegrazing kunnen voorkomen?",
+            "plaatje": "../../media/afrika/overgrazing.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door overbegrazing.",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden" : [
+                "Minder vee op het land laten grazen, en het land laten herstellen.",
+                "Meer vee op het land laten grazen, en het land laten herstellen.",
+                "Het land laten verzilten, zodat er meer planten kunnen groeien.",
+                "Meer vee op het land laten grazen, en het het land niet laten herstellen."
+            ]
+        },
+        {
+            "vraag": "Hoe kan verzilting verwoestijning veroorzaken?",
+            "plaatje": "../../media/afrika/verzilting2.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting, de oogst staat er slecht bij.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden": [
+                "Verzilting kan geen verwoestijning veroorzaken.",
+                "Door verzilting komt er meer vee op het land, en dit kan verwoestijning veroorzaken.",
+                "Door verzilting groeien planten slechter, en hierdoor kan er verwoestijning ontstaan.",
+                "Door verzilting kan er meer water in de grond komen, en dit kan verwoestijning veroorzaken."
+            ]
+        },
+        {
+            "vraag": "Hoe kan overbegrazing verwoestijning veroorzaken?",
+            "plaatje": "../../media/afrika/overgrazing2.jpg",
+            "alt": "Een foto van een klein hok met veel geiten er in.",
+            "openVraag": false,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Door overbegrazing groeien er meer planten, en hierdoor kan er verwoestijning ontstaan.",
+                "Door overbegrazing eten de dieren alle planten op, en hierdoor kan er verwoestijning ontstaan.",
+                "Overbegrazing kan geen verwoestijning veroorzaken.",
+                "Door overbegrazing komt er meer water in de grond, en dit kan verwoestijning veroorzaken."
+            ]
+        },
+        {
+            "vraag": "Wat kunnen de gevolgen zijn van verwoestijning?",
+            "plaatje": "../../media/afrika/desertification-2.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verwoestijning.",
+            "openVraag": false,
+            "juisteAntwoord": 3,
+            "antwoorden": [
+                "Er ontstaat een overvloed aan dieren.",
+                "Er ontstaat een overvloed aan planten en water.",
+                "Er ontstaat een overvloed aan zout, waardoor het land verzilt.",
+                "Er gaat vruchtbaar land, en plek waar mensen kunnen wonen verloren."
+            ]
         }
     ]
 }

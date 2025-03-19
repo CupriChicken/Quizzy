@@ -13,6 +13,51 @@ body {
     background-color: #000031;
 }
 
+#extraInfo{
+    position:absolute;
+    background-color: #266f8c;
+    border: #8D4A39 5px solid;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    width: 50%;
+    font-family: 'montserrat';
+    display: none;
+    animation: fadeIn 1s;
+    z-index: 1;
+}
+#extraInfo h1 {
+    font-family: 'madimione';
+    color: #F4A261;
+    text-align: center;
+}
+#extraInfo hr {
+    border: 2px solid #8D4A39;
+    border-radius: 10px;
+}
+#extraInfo a {
+    color: #F4A261;
+    text-decoration: none;
+    text-decoration: underline double;
+    transition: ease-in-out 0.5s;
+}
+#extraInfo a:hover {
+    color: #E21C3D;
+    font-weight: bold;  
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        left: 100%;
+    }
+    100% {
+        opacity: 1;
+        left: 16.5%;
+    }
+    
+}
+
 #left img {
     width: 100%;
 }
@@ -43,14 +88,14 @@ hr {
     text-decoration: none;
     padding: 5px;
     margin: 5px;
-    border: 5px solid #8D4A39;
+    border: 5px solid #8D4A39;;
     border-radius: 10px;
     transition: ease-in-out 0.5s;
     cursor: pointer;
 }
 .button:hover {
     scale: 1.05;
-    background-color: #8D4A39;
+    background-color:#8D4A39;
     color: #F4A261;
 }
 
@@ -74,8 +119,8 @@ main img {
     border-radius: 10px;
 }
 
-#image {
-    width: 40%;
+#imageContainer {
+    width: 30%;
 }
 
 #vraag {
@@ -83,7 +128,7 @@ main img {
     margin: 1em;
     font-family: 'madimione';
     font-size: 1.5em;
-    color:#F4A261
+    text-align: center;
 }
 
 #antwoorden {
@@ -100,6 +145,7 @@ main img {
     justify-content: center;
     align-items: center;
     width: 75%;
+    font-family: 'montserrat';
 }
 
 textarea {
@@ -108,19 +154,19 @@ textarea {
     height: 10vh;
     font-family: 'montserrat';
     font-size: 1.3em;
-    padding: 0.5em;
+    padding: 1em;
     border: #8D4A39 5px solid;
     border-radius: 10px;
 }
+
 #nakijken {
     text-align: center;
     font-size: 1.5em;
     width: 25%;
-    border: #8D4A39 5px solid;
+    border:#8D4A39 5px solid;
     border-radius: 10px;
     padding: 1em;
     font-family: 'madimione';
-    color: #ffffff;
     cursor: pointer;
     margin: 1em;
     transition: ease-in-out 0.5s;
@@ -129,6 +175,42 @@ textarea {
     scale: 1.05;
     background-color: #8D4A39;
     color: #F4A261;
+}
+
+#juisteAntwoordContainer {
+    border: #8D4A39 5px solid;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+#goedFout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#goed, #fout {
+    font-family: 'madimione';
+    padding: 1em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+#goed:hover, #fout:hover {
+    scale: 1.05;
+    box-shadow: 0 5px 15px #0000004d;
+}
+#goed {
+    background-color: #28900D;
+}
+#fout {
+    background-color: #E21C3D;
 }
 
 #antwoord1, #antwoord2, #antwoord3, #antwoord4{
@@ -145,23 +227,63 @@ textarea {
 
 #antwoord1:hover, #antwoord2:hover, #antwoord3:hover, #antwoord4:hover{
     scale: 1.05;
-    box-shadow: 0 5px 15px #0000004d;
+    box-shadow: 0 5px 15px #457B9D;;
 }
 #antwoord1{
     background-color: #E76F51;
     grid-area: antwoord1;
 }
 #antwoord2{
-    background-color: #2A9D8F;
+    background-color: #2eafff;
     grid-area: antwoord2;
 }
 #antwoord3{
-    background-color: #E9C46A; 
+    background-color: #E9C46A;
     grid-area: antwoord3;
 }
 #antwoord4{
-    background-color: #457B9D;
+    background-color:#2A9D8F;;
     grid-area: antwoord4;
+}
+
+#resultaten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    font-family: 'montserrat';
+}
+#resultaten h1 {
+    font-family: 'madimione';
+    font-size: 2em;
+    color: #F4A261;
+}
+#trophy {
+    position: relative;
+    border: none;
+    border-radius: none;
+    width: 40%;
+    margin: 1em;
+    animation: trophyRollIn 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes trophyRollIn {
+    0% {
+        transform: rotate(0deg);
+        left: -100%;
+    }
+    50% {
+        transform: rotate(360deg);
+        left: 0%;
+    }
+    100% {
+        transform: rotate(0deg);
+        left: 0%;
+    }
+    
 }
 
 #right {
@@ -169,25 +291,8 @@ textarea {
     background-color: #000031;
 }
 
-/* Media query for 1920px width and height */
-@media (min-width: 1920px) {
-    #side-bar a {
-        padding: 0.75rem;
-    }
-    #middle img {
-        width: 75%;
-        border: 5px solid #0280BA;
-        border-radius: 10px;
-    }
-
-    #picture {
-        width: 40%;
-    }
-}
-
-/* Media query for larger screens (2560px) */
-@media (min-width: 2560px) {
-    #side-bar a {
-        padding: 1.85rem;
-    }
+body{
+color: #0000004d;
+color: #8D4A39;
+color: #F4A261; 
 }

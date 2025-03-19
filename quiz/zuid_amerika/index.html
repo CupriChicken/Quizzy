@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="../../media/icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../../content/css/fonts.css">
     <link rel="stylesheet" href="../../content/css/zuid_amerika.css">
-    <script src="../../content/js/zuid_amerika.js"></script>
+
+    <script src="../../content/js/zuid_amerika.js" defer></script>
 </head>
 <body>
     <div id="left">
@@ -18,40 +19,84 @@
             Welkom bij de quiz over klimaatverandering in Zuid-Amerika!
             <br>
             Als je extra informatie wil over klimaatverandering in Zuid-Amerika kan je die hier vinden:
-            <span  class="button" onclick="toggleInfo()">Extra informatie</span>
+            <div  class="button" onclick="toggleInfo()">Extra informatie</div>
             <hr>
             <a href="../../" class="button">Terug naar de homepagina</a>
-            <a href="../europa/" class="button">Quiz over klimaatverandering in europa</a>
+            <a href="../europa/" class="button">Quiz over klimaatverandering in Europa</a>
             <a href="../afrika/index.html" class="button">Quiz over klimaatverandering in Afrika</a>
         </div>
     </div>
 
     <main id="middle">
+        <div id="extraInfo">
+            <p>
+                <h1>Extra informatie over klimaatverandering in Zuid-Amerika</h1>
+                <hr>
+                klimaatverandering is een onderwerp dat de laatste jaren niet te ontwijken is.
+                <br>
+                Overal op de wereld zijn de gevolgen van klimaatverandering te merken.
+                <br>
+                In Zuid-Amerika is dit niet anders, de gevolgen van klimaatverandering zijn hier vaak nog erger dan in andere delen van de wereld.
+
+            </p>
+            <p>
+                Grote gevolgen van klimaatverandering in Zuid-Amerika zijn onder anderen <a href="https://nl.wikipedia.org/wiki/Verwoestijning" target="_blank">Verwoestijning</a>, <a href="https://nl.wikipedia.org/wiki/Verzilting" target="_blank">verzilting</a>, extreme droogte en water tekorten.
+                <br>
+                <b>Verzilting</b>: bij verzilting wordt de bodem zouter. Dit kan komen door zout water dat in de bodem trekt, hierdoor kunnen planten niet meer groeien en kan de bodem niet meer gebruikt worden voor landbouw.
+                Vaak wordt verzilting veroorzaakt door slechte irrigatie methodes, als er teveel water wordt gebruikt kan er zout water in de bodem trekken.
+            </p>
+            <p>Om verzilting tegen te gaan kun je in plaats van <a href="https://nl.wikipedia.org/wiki/Beregening" target="_blank">beregenen</a> <a href="https://nl.wikipedia.org/wiki/Druppelirrigatie" target="_blank">druppelirrigatie</a> toe passen.</p>
+            <p>
+                <b>Verwoestijning</b>: bij <a href="https://eo.belspo.be/nl/woestijnvorming-en-landgebrek-Zuid-Amerika" target="_blank">verwoestijning</a> wordt vruchtbare grond omgezet in woestijn. Dit kan komen door een teveel aan zonlicht, te weinig regen en door menselijk handelen, zoals overbegrazing of slechte landbouw methodes.
+            </p>
+            <p>
+                <b>Overbegrazing</b>: bij <a href="https://nl.wikipedia.org/wiki/Overbegrazing" target="_blank">overbegrazing</a> wordt er teveel vee op een stuk grond gezet. Hierdoor kan de grond niet meer herstellen en kan er verwoestijning ontstaan, omdat de planten die de grond vasthouden worden opgegeten.
+            </p>
+            <hr>
+            Gemaakt door Nick, student Creative Software Development aan het Grafisch Lyceum Rotterdam.
+        </div>
         <div id="vraagContainer">
-            <div id="image">
-                <img src="../../media/droogte.jpg" alt="">
+            <div id="imageContainer">
+                <img src="../../media/boat.jpg" alt="" id="image">
             </div>
             <div id="vraag">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum tenetur? Odit labore deleniti magni minus hic eius possimus cumque dicta, autem debitis facere ab sequi natus cum molestias?
+
             </div>
             <div id="antwoord">
-                <textarea name="antwoord" id="antwoord" placeholder="Vul hier je antwoord in..."></textarea>
-                <div id="nakijken">
-                    Controleer je antwoord
+                <textarea name="antwoord" id="openAntwoord" placeholder="Vul hier je antwoord in..."></textarea>
+                <div id="nakijken" onclick="checkOpenAntwoord()">
+                    Kijk je antwoord na!
+                </div>
+                <div id="juisteAntwoord">
+                    <div id="juisteAntwoordContainer">
+                        Voorbeeld antwoord: <span id="juisteAntwoordDisplay"></span> <br>
+                        Heb jij deze vraag goed beantwoord?
+                    </div>
+                    <div id="goedFout">
+                        <div id="goed">Goed &#x1F44D;</div><div id="fout">Fout &#x1F625;</div>
+                    </div>
                 </div>
             </div>
             <div id="antwoorden">
-                <div id="antwoord1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum nesciunt non nobis dignissimos quo hic, minima aliquam eius ut recusandae accusamus dolore delectus obcaecati quasi sed molestiae, temporibus beatae?</div>
-                <div id="antwoord2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore libero laborum expedita harum ratione aliquid animi nemo sint distinctio voluptas nihil nam quam, tenetur dolor sunt recusandae! Consequatur, tenetur enim?</div>
-                <div id="antwoord3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quis nam suscipit modi nulla pariatur eligendi tempore dignissimos, iusto, ullam excepturi veniam itaque consequatur totam impedit voluptatem architecto placeat id.</div>
-                <div id="antwoord4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt vero nemo natus deleniti at, expedita veritatis hic ducimus quasi sapiente totam praesentium, illo neque ipsa iure asperiores! Similique, nihil.</div>
+                <div id="antwoord1" onclick="checkAntwoord(0)"> </div>
+                <div id="antwoord2" onclick="checkAntwoord(1)"> </div>
+                <div id="antwoord3" onclick="checkAntwoord(2)"> </div>
+                <div id="antwoord4" onclick="checkAntwoord(3)"> </div>
             </div>
+        </div>
+        <div id="resultaten">
+            <h1>Je hebt de quiz afgerond!</h1>
+            <h2>Je hebt <span id="vragen"></span> van de <span id="vragenMax"></span> vragen goed beantwoord!</h2>
+            <br>
+                <img src="../../media/trophy.svg" alt="" id="trophy">
+            <h2>Je hebt <span id="score"></span> punten gehaald! &#x1F973;&#x1F389;</h2>
+            <br>
         </div>
     </main>
 
     <div id="right">
-        <div id="resultaat">
-            <H1>Resultaat:</H1>
+        <div id="scores">
+            <h1>Scores</h1>
             <hr>
         </div>
     </div>

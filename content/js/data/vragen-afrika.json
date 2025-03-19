@@ -31,7 +31,7 @@
             "plaatje": "../../media/afrika/verzilting.jpg",
             "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
             "openVraag": false,
-            "juisteAntwoord": 1,
+            "juisteAntwoord": 0,
             "antwoorden": [
                 "Door druppel irrigatie te gebruiken.",
                 "Door het zout van het land te rapen.",

@@ -75,6 +75,18 @@ async function checkAntwoord(antwoord) {
     displayVraag();
 }
 
+goed.addEventListener('click', function() {
+    score += 0.5;
+    goedBeantwoord++;
+    huidigeVraagIndex++;
+    displayVraag();
+});
+
+fout.addEventListener('click', function() {
+    huidigeVraagIndex++;
+    displayVraag();
+});
+
 async function checkOpenAntwoord() {
     const juisteAntwoordDisplay = document.getElementById('juisteAntwoordDisplay');
     const goed = document.getElementById('goed');
@@ -86,18 +98,6 @@ async function checkOpenAntwoord() {
     nakijkKnop.style.display = 'none';
     juisteAntwoord.style.display = 'block';
     juisteAntwoordDisplay.innerHTML = data.vragen[huidigeVraagIndex].antwoorden;
-
-    goed.addEventListener('click', function() {
-        score += 0.5;
-        goedBeantwoord++;
-        huidigeVraagIndex++;
-        displayVraag();
-    });
-
-    fout.addEventListener('click', function() {
-        huidigeVraagIndex++;
-        displayVraag();
-    });
 }
 
 async function DisplayResultaten() {

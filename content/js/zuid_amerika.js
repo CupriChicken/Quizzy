@@ -21,12 +21,10 @@ async function getVragen() {
     return data;
 }
 
-
 async function displayVraag() {
     resultaten.style.display = 'none';
 
     const data = await getVragen();
-
 
     const huidigeVraag = data.vragen[huidigeVraagIndex];
 
@@ -75,29 +73,28 @@ async function checkAntwoord(antwoord) {
     displayVraag();
 }
 
+document.getElementById('goed').addEventListener('click', function() {
+    score += 0.5;
+    goedBeantwoord++;
+    huidigeVraagIndex++;
+    console.log('goed');
+    displayVraag();
+});
+
+document.getElementById('fout').addEventListener('click', function() {
+    huidigeVraagIndex++;
+    console.log('fout');
+    displayVraag();
+});
+
 async function checkOpenAntwoord() {
     const juisteAntwoordDisplay = document.getElementById('juisteAntwoordDisplay');
-    const goed = document.getElementById('goed');
-    const fout = document.getElementById('fout');
-
     const data = await getVragen();
 
     openAntwoord.setAttribute('readonly', true);
     nakijkKnop.style.display = 'none';
     juisteAntwoord.style.display = 'block';
     juisteAntwoordDisplay.innerHTML = data.vragen[huidigeVraagIndex].antwoorden;
-
-    goed.addEventListener('click', function() {
-        score += 0.5;
-        goedBeantwoord++;
-        huidigeVraagIndex++;
-        displayVraag();
-    });
-
-    fout.addEventListener('click', function() {
-        huidigeVraagIndex++;
-        displayVraag();
-    });
 }
 
 async function DisplayResultaten() {
@@ -106,14 +103,11 @@ async function DisplayResultaten() {
     const vragen = document.getElementById('vragen');
     const vragenMax = document.getElementById('vragenMax');
 
-    
     vraag.style.display = 'none';
     meerKeuze.style.display = 'none';
     open.style.display = 'none';
     image.style.display = 'none';
     resultaten.style.display = 'flex';
-    
-
     vragen.innerHTML = goedBeantwoord;
     vragenMax.innerHTML = data.vragen.length;
     scoreDisplay.innerHTML = score * 100;

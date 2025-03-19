@@ -2,7 +2,8 @@
     "vragen": [
         {
             "vraag": "placeholder",
-            "plaatje": "../media/boat.jpg",
+            "vraagNumber": 1,
+            "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
             "juisteAntwoord": 0,
@@ -10,6 +11,184 @@
                 "placeholder",
                 "placeholder",
                 "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 2,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "Open test vraag",
+            "vraagNumber": 3,
+            "plaatje": "../../path/naar/plaatje.jpg",
+            "alt": "Alt text voor het plaatje",
+            "openVraag": true,
+            "antwoorden": "Dit is een open vraag"
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 4,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 5,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 6,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 7,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": true,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 8,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 9,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 10,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": true,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 11,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 12,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 13,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": true,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 14,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "placeholder",
+                "placeholder",
+                "placeholder",
+                "placeholder"
+            ]
+        },
+        {
+            "vraag": "placeholder",
+            "vraagNumber": 15,
+            "plaatje": "../../media/boat.jpg",
+            "alt": "boat",
+            "openVraag": true,
+            "juisteAntwoord": 0,
+            "antwoorden": [
                 "placeholder"
             ]
         }

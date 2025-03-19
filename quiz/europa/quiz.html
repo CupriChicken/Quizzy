@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../content/css/fonts.css">
     <link rel="stylesheet" href="../../content/css/europa.css">
     <!-- JS -->
-    <script src="../../content/js/europa.js"></script>
+    <script defer src="../../content/js/europa.js"></script>
     <!-- favicon -->
     <link rel="shortcut icon" href="../../media/icon.svg" type="image/x-icon">
 
@@ -60,6 +60,18 @@
             <div id="question"> </div>
             <div id="answer">
                 <textarea name="answer" id="answer" placeholder="Vul hier uw antwoord in"></textarea>
+                    <div id="nakijken" onclick="checkOpenAntwoord()">
+                        Kijk je antwoord na!
+                    </div>
+                    <div id="juisteAntwoord">
+                        <div id="juisteAntwoordContainer">
+                            Voorbeeld antwoord: <span id="juisteAntwoordDisplay"></span> <br>
+                            Heb jij deze vraag goed beantwoord?
+                        </div>
+                        <div id="goedFout">
+                            <div id="goed">Goed &#x1F44D;</div><div id="fout">Fout &#x1F625;</div>
+                        </div>
+                    </div>
             </div>
             <div id="answers">
                 <div id="answer1" onclick="checkAntwoord(0)"> </div>
@@ -72,7 +84,6 @@
             <h1>Je hebt de quiz afgerond!</h1>
             <h2>Je hebt <span id="vragen"></span> van de <span id="vragenMax"></span> vragen goed beantwoord!</h2>
             <br>
-
                 <img src="../../media/trophy.svg" alt="" id="trophy">
 
             <h2>Je hebt <span id="score"></span> punten gehaald!!! &#x1F973;&#x1F389;</h2>

@@ -254,6 +254,45 @@ textarea {
     grid-area: antwoord4;
 }
 
+#resultaten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    font-family: 'montserrat';
+}
+#resultaten h1 {
+    font-family: 'madimione';
+    font-size: 2em;
+    color: #000;
+}
+#trophy {
+    position: relative;
+    border: none;
+    border-radius: none;
+    width: 40%;
+    margin: 1em;
+    animation: trophyRollIn 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes trophyRollIn {
+    0% {
+        transform: rotate(0deg);
+        left: -100%;
+    }
+    50% {
+        transform: rotate(360deg);
+        left: 0%;
+    }
+    100% {
+        transform: rotate(0deg);
+        left: 0%;
+    }
+}
+
 #right{
     grid-area: right;
     color: wheat;

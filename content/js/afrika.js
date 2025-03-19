@@ -21,12 +21,10 @@ async function getVragen() {
     return data;
 }
 
-
 async function displayVraag() {
     resultaten.style.display = 'none';
 
     const data = await getVragen();
-
 
     const huidigeVraag = data.vragen[huidigeVraagIndex];
 
@@ -105,14 +103,11 @@ async function DisplayResultaten() {
     const vragen = document.getElementById('vragen');
     const vragenMax = document.getElementById('vragenMax');
 
-    
     vraag.style.display = 'none';
     meerKeuze.style.display = 'none';
     open.style.display = 'none';
     image.style.display = 'none';
     resultaten.style.display = 'flex';
-    
-
     vragen.innerHTML = goedBeantwoord;
     vragenMax.innerHTML = data.vragen.length;
     scoreDisplay.innerHTML = score * 100;

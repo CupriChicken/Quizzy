@@ -129,40 +129,6 @@
                 "Er ontstaat een overvloed aan zout, waardoor het land verzilt.",
                 "Er gaat vruchtbaar land, en plek waar mensen kunnen wonen verloren."
             ]
-        },    
-        {
-            "vraag": "Open test vraag",
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
-            "openVraag": true,
-            "antwoorden": "Dit is een open vraag"
-        },
-        {
-            "vraag": "Open test vraag",
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
-            "openVraag": true,
-            "antwoorden": "Dit is een open vraag"
-        },    {
-            "vraag": "Open test vraag",
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
-            "openVraag": true,
-            "antwoorden": "Dit is een open vraag"
-        },
-        {
-            "vraag": "Open test vraag",
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
-            "openVraag": true,
-            "antwoorden": "Dit is een open vraag"
-        },
-        {
-            "vraag": "Open test vraag",
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
-            "openVraag": true,
-            "antwoorden": "Dit is een open vraag"
         }
     ]
 }

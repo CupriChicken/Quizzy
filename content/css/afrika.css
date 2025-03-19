@@ -13,7 +13,7 @@ body {
 }
 
 #extraInfo{
-    position: absolute;
+    position:absolute;
     background-color: #fff;
     border: #0280BA 5px solid;
     border-radius: 10px;
@@ -22,6 +22,8 @@ body {
     width: 50%;
     font-family: 'montserrat';
     display: none;
+    animation: fadeIn 1s;
+    z-index: 1;
 }
 #extraInfo h1 {
     font-family: 'madimione';
@@ -31,6 +33,28 @@ body {
 #extraInfo hr {
     border: 2px solid #0280BA;
     border-radius: 10px;
+}
+#extraInfo a {
+    color: #0280BA;
+    text-decoration: none;
+    text-decoration: underline double;
+    transition: ease-in-out 0.5s;
+}
+#extraInfo a:hover {
+    color: #E21C3D;
+    font-weight: bold;  
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        left: 100%;
+    }
+    100% {
+        opacity: 1;
+        left: 16.5%;
+    }
+    
 }
 
 #left img {
@@ -95,12 +119,12 @@ main img {
 }
 
 #imageContainer {
-    width: 40%;
+    width: 30%;
 }
 
 #vraag {
     width: 100%;
-    margin: 0.5em;
+    margin: 1em;
     font-family: 'madimione';
     font-size: 1.5em;
     text-align: center;
@@ -129,7 +153,7 @@ textarea {
     height: 10vh;
     font-family: 'montserrat';
     font-size: 1.3em;
-    padding: 0.5em;
+    padding: 1em;
     border: #0280BA 5px solid;
     border-radius: 10px;
 }
@@ -156,7 +180,7 @@ textarea {
     border: #0280BA 5px solid;
     border-radius: 10px;
     padding: 1em;
-    margin: 0.5em;
+    margin: 1em;
     font-size: 1.5em;
 }
 
@@ -168,8 +192,8 @@ textarea {
 }
 #goed, #fout {
     font-family: 'madimione';
-    padding: 0.5em;
-    margin-right: 0.5em;
+    padding: 1em;
+    margin-right: 1em;
     margin-left: 0.5em;
     border-radius: 10px;
     color: #fff;
@@ -238,14 +262,14 @@ textarea {
     position: relative;
     border: none;
     border-radius: none;
-    width: 50%;
+    width: 40%;
     margin: 1em;
-    animation: thropyRollIn 4s;
+    animation: trophyRollIn 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-@keyframes thropyRollIn {
+@keyframes trophyRollIn {
     0% {
         transform: rotate(0deg);
         left: -100%;

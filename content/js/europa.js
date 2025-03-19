@@ -10,10 +10,10 @@ const meerKeuze = document.getElementById('answers');
 const open = document.getElementById('answer');
 const image = document.getElementById('image');
 const info = document.getElementById('extraInfo');
-info.style.display = 'none';
+// info.style.display = 'none';
 
 async function getVragen() {
-    const file = "../../content/js/data/vragen-eurpopa.json";
+    const file = "../../content/js/data/vragen-europa.json";
     const request = new Request(file);
     
     const response = await fetch(request);

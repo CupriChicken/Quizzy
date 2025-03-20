@@ -95,10 +95,10 @@
             <h1>Je hebt de quiz afgerond!</h1>
             <h2>Je hebt <span id="vragen"></span> van de <span id="vragenMax"></span> vragen goed beantwoord!</h2>
             <br>
-            <!-- <div id="trophyContainer"> -->
-                <img src="../../media/trophy.svg" alt="" id="trophy">
-            <!-- </div> -->
+            <img src="../../media/trophy.svg" alt="" id="trophy">
             <h2>Je hebt <span id="score"></span> punten gehaald!!! &#x1F973;&#x1F389;</h2>
+            <input type="text" id="naam" placeholder="Vul je naam in om je score op te slaan!">
+            <div id="scoreOpslaan" onclick="saveScore()">Sla je score op!</div>
             <br>
         </div>
     </main>
@@ -107,6 +107,7 @@
         <div id="scores">
             <h1>Scores</h1>
             <hr>
+            <div id="scoreContainer"></div>
         </div>
     </div>
 </body>

@@ -254,6 +254,7 @@ textarea {
     font-family: 'montserrat';
 }
 #resultaten h1 {
+    margin-top: 0;
     font-family: 'madimione';
     font-size: 2em;
     color: #000;
@@ -262,7 +263,7 @@ textarea {
     position: relative;
     border: none;
     border-radius: none;
-    width: 40%;
+    width: 35%;
     margin: 1em;
     animation: trophyRollIn 4s;
     animation-iteration-count: 1;
@@ -282,10 +283,42 @@ textarea {
         transform: rotate(0deg);
         left: 0%;
     }
-    
+}
+
+#resultaten input{
+    border: #0280BA 5px solid;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'montserrat';
+    font-size: 1.5em;
+    width: 30vw;
+}
+#scoreOpslaan {
+    text-align: center;
+    font-size: 1.5em;
+    width: 25%;
+    border: #0280BA 5px solid;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-family: 'madimione';
+    cursor: pointer;
+    margin: o.5em;
+    transition: ease-in-out 0.5s;
+}
+#scoreOpslaan:hover {
+    scale: 1.05;
+    background-color: #0280BA;
+    color: #fff;
 }
 
 #right {
     grid-area: right;
     background-color: #0280BA;
+}
+
+#scoreContainer {
+    margin-left: 1em;
+    font-family: 'madimione';
+    font-size: 2em;
 }

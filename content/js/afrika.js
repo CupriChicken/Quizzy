@@ -122,4 +122,28 @@ async function toggleInfo() {
     }
 }
 
+function saveScore() {
+    const naam = document.getElementById('naam')
+    const button = document.getElementById('scoreOpslaan');
+
+    let scores = JSON.parse(localStorage.getItem('scores')) || [];
+    scores.push({ naam: naam.value, score: score * 100 });
+    localStorage.setItem('scores', JSON.stringify(scores));
+    button.style.display = 'none';
+    naam.setAttribute('readonly', true);
+    displayScores();
+
+}
+
+function displayScores() {
+    const scores = document.getElementById('scoreContainer');
+    const scoreData = JSON.parse(localStorage.getItem('scores')) || [];
+    scores.innerHTML = '';
+    scoreData.sort((a, b) => b.score - a.score); 
+    scoreData.forEach(score => {
+        scores.innerHTML += `${score.naam}: ${score.score} <br>`;
+    });
+}
+
 displayVraag();
+displayScores();

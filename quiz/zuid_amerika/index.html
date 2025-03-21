@@ -18,7 +18,7 @@
             <hr>
             Welkom bij de quiz over klimaatverandering in Zuid-Amerika!
             <br>
-            Als je extra informatie wil over klimaatverandering in Zuid-Amerika kan je die hier vinden:
+            Als je extra informatie wil over klimaatverandering in Afrika kan je die hier vinden:
             <div  class="button" onclick="toggleInfo()">Extra informatie</div>
             <hr>
             <a href="../../" class="button">Terug naar de homepagina</a>
@@ -32,29 +32,37 @@
             <p>
                 <h1>Extra informatie over klimaatverandering in Zuid-Amerika</h1>
                 <hr>
-                klimaatverandering is een onderwerp dat de laatste jaren niet te ontwijken is.
+                Klimaatverandering is een onderwerp dat de laatste jaren niet te ontwijken is.
                 <br>
                 Overal op de wereld zijn de gevolgen van klimaatverandering te merken.
                 <br>
-                In Zuid-Amerika is dit niet anders, de gevolgen van klimaatverandering zijn hier vaak nog erger dan in andere delen van de wereld.
-
+                In Zuid-Amerika is dit niet anders. De gevolgen van klimaatverandering zijn hier zichtbaar in onder andere ontbossing, extreme weersomstandigheden en afname van biodiversiteit.
             </p>
             <p>
-                Grote gevolgen van klimaatverandering in Zuid-Amerika zijn onder anderen <a href="https://nl.wikipedia.org/wiki/Verwoestijning" target="_blank">Verwoestijning</a>, <a href="https://nl.wikipedia.org/wiki/Verzilting" target="_blank">verzilting</a>, extreme droogte en water tekorten.
+                Grote gevolgen van klimaatverandering in Zuid-Amerika zijn onder andere <a href="https://nl.wikipedia.org/wiki/Ontbossing" target="_blank">ontbossing</a>, <a href="https://nl.wikipedia.org/wiki/El_Ni%C3%B1o" target="_blank">El Niño-effect</a>, overstromingen en droogte.
                 <br>
-                <b>Verzilting</b>: bij verzilting wordt de bodem zouter. Dit kan komen door zout water dat in de bodem trekt, hierdoor kunnen planten niet meer groeien en kan de bodem niet meer gebruikt worden voor landbouw.
-                Vaak wordt verzilting veroorzaakt door slechte irrigatie methodes, als er teveel water wordt gebruikt kan er zout water in de bodem trekken.
-            </p>
-            <p>Om verzilting tegen te gaan kun je in plaats van <a href="https://nl.wikipedia.org/wiki/Beregening" target="_blank">beregenen</a> <a href="https://nl.wikipedia.org/wiki/Druppelirrigatie" target="_blank">druppelirrigatie</a> toe passen.</p>
-            <p>
-                <b>Verwoestijning</b>: bij <a href="https://eo.belspo.be/nl/woestijnvorming-en-landgebrek-Zuid-Amerika" target="_blank">verwoestijning</a> wordt vruchtbare grond omgezet in woestijn. Dit kan komen door een teveel aan zonlicht, te weinig regen en door menselijk handelen, zoals overbegrazing of slechte landbouw methodes.
+                <b>Ontbossing</b>: De Amazone wordt vaak de "longen van de aarde" genoemd, maar door ontbossing neemt het regenwoud in snel tempo af. Dit komt door landbouw, illegale houtkap en infrastructuurprojecten. Minder bomen betekent minder CO₂-opname en een versnelde klimaatverandering.
             </p>
             <p>
-                <b>Overbegrazing</b>: bij <a href="https://nl.wikipedia.org/wiki/Overbegrazing" target="_blank">overbegrazing</a> wordt er teveel vee op een stuk grond gezet. Hierdoor kan de grond niet meer herstellen en kan er verwoestijning ontstaan, omdat de planten die de grond vasthouden worden opgegeten.
+                Om ontbossing tegen te gaan, kunnen duurzame landbouwtechnieken en herbebossing worden toegepast. Lees meer over <a href="https://www.worldwildlife.org/initiatives/forests" target="_blank">wereldwijde herbebossingsprojecten</a>.
+            </p>
+            <p>
+                <b>El Niño-effect</b>: Het <a href="https://nl.wikipedia.org/wiki/El_Ni%C3%B1o" target="_blank">El Niño</a>-verschijnsel zorgt voor extreme weersomstandigheden, zoals zware regenval en droogtes. Dit heeft impact op landbouw, waterbronnen en ecosystemen in Zuid-Amerika.
+            </p>
+            <p>
+                <b>Afname van biodiversiteit</b>: Door klimaatverandering en ontbossing worden de leefgebieden van veel dier- en plantensoorten vernietigd. Dit leidt tot het uitsterven van verschillende soorten, wat een negatief effect heeft op het ecosysteem. Dieren zoals jaguars, toekans en kikkers verliezen hun natuurlijke habitat.
+            </p>
+            <p>
+                Ontbossing en het verlies van biodiversiteit versterken klimaatverandering.
+                <br>
+                Minder bomen zorgen voor minder CO₂-opname, terwijl het verlies van diersoorten de natuurlijke balans verstoort.
+                <br>
+                Dit heeft grote gevolgen voor ecosystemen en gemeenschappen in heel Zuid-Amerika.
             </p>
             <hr>
             Gemaakt door Nick, student Creative Software Development aan het Grafisch Lyceum Rotterdam.
         </div>
+        
         <div id="vraagContainer">
             <div id="imageContainer">
                 <img src="../../media/boat.jpg" alt="" id="image">
@@ -88,8 +96,10 @@
             <h1>Je hebt de quiz afgerond!</h1>
             <h2>Je hebt <span id="vragen"></span> van de <span id="vragenMax"></span> vragen goed beantwoord!</h2>
             <br>
-                <img src="../../media/trophy.svg" alt="" id="trophy">
-            <h2>Je hebt <span id="score"></span> punten gehaald! &#x1F973;&#x1F389;</h2>
+            <img src="../../media/trophy.svg" alt="" id="trophy">
+            <h2>Je hebt <span id="score"></span> punten gehaald!!! &#x1F973;&#x1F389;</h2>
+            <input type="text" id="naam" placeholder="Vul je naam in om je score op te slaan!">
+            <div id="scoreOpslaan" onclick="saveScore()">Sla je score op!</div>
             <br>
         </div>
     </main>
@@ -98,6 +108,7 @@
         <div id="scores">
             <h1>Scores</h1>
             <hr>
+            <div id="scoreContainer"></div>
         </div>
     </div>
 </body>

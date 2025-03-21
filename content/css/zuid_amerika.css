@@ -293,3 +293,37 @@ textarea {
     grid-area: right;
     background-color: #000031;
 }
+
+#resultaten input{
+    border: #8D4A39 5px solid;
+    color: #F4A261;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'montserrat';
+    font-size: 1.5em;
+    width: 30vw;
+}
+#scoreOpslaan {
+    text-align: center;
+    font-size: 1.5em;
+    width: 25%;
+    border: #8D4A39 5px solid;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-family: 'madimione';
+    cursor: pointer;
+    margin: o.5em;
+    transition: ease-in-out 0.5s;
+}
+#scoreOpslaan:hover {
+    scale: 1.05;
+    background-color: #8D4A39;
+    color: #F4A261
+}
+
+#scoreContainer {
+    margin-left: 1em;
+    font-family: 'madimione';
+    font-size: 2em;
+}

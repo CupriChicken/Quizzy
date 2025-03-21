@@ -294,6 +294,14 @@ textarea {
     font-size: 1.5em;
     width: 30vw;
 }
+#error {
+    color: #E21C3D;
+    font-family: 'madimione';
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+}
+
 #scoreOpslaan {
     text-align: center;
     font-size: 1.5em;

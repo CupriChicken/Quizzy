@@ -125,13 +125,24 @@ async function toggleInfo() {
 function saveScore() {
     const naam = document.getElementById('naam')
     const button = document.getElementById('scoreOpslaan');
+    const error = document.getElementById('error');
 
-    let scores = JSON.parse(localStorage.getItem('scores')) || [];
-    scores.push({ naam: naam.value, score: score * 100 });
-    localStorage.setItem('scores', JSON.stringify(scores));
-    button.style.display = 'none';
-    naam.setAttribute('readonly', true);
-    displayScores();
+    if (naam.value == '') {
+        error.innerHTML = 'Je moet een naam invullen om je score op te slaan!';
+        return;
+    }
+    else if (naam.value.length > 10) {
+        error.innerHTML = 'Sorry, je naam mag maximaal 10 tekens lang zijn';
+        return;
+    }
+    else {
+        let scores = JSON.parse(localStorage.getItem('scores')) || [];
+        scores.push({ naam: naam.value, score: score * 100 });
+        localStorage.setItem('scores', JSON.stringify(scores));
+        button.style.display = 'none';
+        naam.setAttribute('readonly', true);
+        displayScores();
+    }
 }
 
 function displayScores() {

@@ -132,7 +132,6 @@ function saveScore() {
     button.style.display = 'none';
     naam.setAttribute('readonly', true);
     displayScores();
-
 }
 
 function displayScores() {

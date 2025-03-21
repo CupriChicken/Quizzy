@@ -20,10 +20,10 @@
             "openVraag": false,
             "juisteAntwoord": 2,
             "antwoorden": [
-                "Mensen gooien zout in op het land waardoor het land onvruchtbaar wordt.",
-                "Door het zout dat in de regen zit op het land terecht komt.",
-                "Door slechte irrigatie komt er veel water in de grond, dit water zakt, en als het weer omhoog komt neemt het zout mee.",
-                "Door de zon die het zout uit de zee verdampt en het zout op het land terecht laat terecht komen."
+                "Mensen gooien zout op het land dat zich mengt met water.",
+                "Door de regen komt er zout op het land, en dit mengt zich met water.",
+                "Door slechte irrigatie komt er veel water in de grond, dit water zakt en mengt met zout dat in de grond zit, en als het weer omhoog komt neemt het zout mee.",
+                "Door de zon die het zout uit de zee verdampt en het zout op het land terecht laat terecht komen, waar het zich mengt met water."
             ]
         },
         {
@@ -129,6 +129,41 @@
                 "Er ontstaat een overvloed aan zout, waardoor het land verzilt.",
                 "Er gaat vruchtbaar land, en plek waar mensen kunnen wonen verloren."
             ]
+        },
+        {
+            "vraag": "Waarom is verzilting slecht voor de landbouw?",
+            "plaatje": "../../media/afrika/verzilting3.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": true,
+            "antwoorden": "\"Door het zout in de grond groeien de planten minder goed.\" <br> \"Planten kunnen niet tegen zout water.\" <br> \" Planten groeien slecht op verwoestijnd land.\""
+        },
+        {
+            "vraag": "Hoe ontstaat verwoestijning?",
+            "plaatje": "../../media/afrika/desertification-3.jpg",
+            "alt": "Een foto van een grote hoeveelheid koeien op een stuk land.",
+            "openVraag": true,
+            "antwoorden": "\"Door overbegrazing, slechte landbouwmethoden of verzilting kan vruchtbaar land veranderen in woestijn.\" <br> \"Door verzilting en overbegrazing groeien er minder planten die de grond vasthouden, hierdoor kan een gebied verwoestwijnen.\" "
+        },
+        {
+            "vraag": "Waarom kan druppel irrigatie helpen tegen verzilting?",
+            "plaatje": "../../media/afrika/irrigation.jpg",
+            "alt": "Een foto van een stuk land dat wordt geïrrigeerd met druppel irrigatie.",
+            "openVraag": true,
+            "antwoorden": "\"Bij druppel irrigatie wordt er precies genoeg water gegeven, waardoor het water zich niet kan mengen met zout.\" <br> \"Bij druppel irrigatie wordt het water direct bij de wortels van de planten gegeven, waardoor het zout niet in de grond kan trekken en zich kan mengen met zout.\""
+        },
+        {
+            "vraag": "Op welke manieren beïnvloedt klimaatverandering de waterbeschikbaarheid in Afrika?",
+            "plaatje": "../../media/afrika/arid.jpg",
+            "alt": "Een foto van een droog landschap.",
+            "openVraag": true,
+            "antwoorden": "\"Klimaatverandering leidt tot langere droogteperioden en onregelmatige regenval, wat resulteert in watertekorten.\" <br> \"Verhoogde temperaturen zorgen voor meer verdamping, waardoor er minder water beschikbaar is voor landbouw en dagelijks gebruik.\""
+        },
+        {
+            "vraag": "Wat is het effect van klimaatverandering op de landbouw in Afrika?",
+            "plaatje": "../../media/afrika/desert.jpg",
+            "alt": "Een foto van de woestijn.",
+            "openVraag": true,
+            "antwoorden": "\"Klimaatverandering leidt tot langere droogteperioden en onregelmatige regenval, wat resulteert in mislukte oogsten en voedseltekorten.\" <br> \"Verhoogde temperaturen zorgen voor meer verdamping, waardoor er minder water beschikbaar is voor landbouw en dagelijks gebruik.\""
         }
     ]
 }

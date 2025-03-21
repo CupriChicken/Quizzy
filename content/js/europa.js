@@ -42,8 +42,8 @@ async function displayVraag() {
             meerKeuze.style.display = 'none';
             open.style.display = 'flex';
             juisteAntwoord.style.display = 'none';
-            openAntwoord.removeAttribute('readonly');
-            openAntwoord.value = '';
+            // openAntwoord.removeAttribute('readonly');
+            // openAntwoord.value = '';
             nakijkKnop.style.display = 'block';
     
         } 
@@ -75,19 +75,6 @@ async function checkAntwoord(antwoord) {
     displayVraag();
 }
 
-async function checkOpenAntwoord() {
-    const juisteAntwoordDisplay = document.getElementById('juisteAntwoordDisplay');
-    const goed = document.getElementById('goed');
-    const fout = document.getElementById('fout');
-
-    const data = await getVragen();
-
-    openAntwoord.setAttribute('readonly', true);
-    nakijkKnop.style.display = 'none';
-    juisteAntwoord.style.display = 'block';
-    juisteAntwoordDisplay.innerHTML = data.vragen[huidigeVraagIndex].antwoorden;
-}
-
 goed.addEventListener('click', function() {
     score += 0.5;
     goedBeantwoord++;
@@ -99,6 +86,20 @@ fout.addEventListener('click', function() {
     huidigeVraagIndex++;
     displayVraag();
 });
+
+async function checkOpenAntwoord() {
+    const juisteAntwoordDisplay = document.getElementById('juisteAntwoordDisplay');
+    const goed = document.getElementById('goed');
+    const fout = document.getElementById('fout');
+
+    const data = await getVragen();
+
+    // openAntwoord.setAttribute('readonly', true);
+    nakijkKnop.style.display = 'none';
+    juisteAntwoord.style.display = 'block';
+    juisteAntwoordDisplay.innerHTML = data.vragen[huidigeVraagIndex].antwoorden;
+}
+
 
 async function DisplayResultaten() {
     const data = await getVragen();

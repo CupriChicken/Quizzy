@@ -3,8 +3,8 @@
         {
             "vraag": "Wat zijn de belangrijkste factoren die bijdragen aan de versnelde opwarming van het klimaat in Europa? ",
             "vraagNumber": 1,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/hemel.jpg",
+            "alt": "hemel",
             "openVraag": false,
             "juisteAntwoord": 2,
             "antwoorden": [
@@ -17,8 +17,8 @@
         {
             "vraag": "Hoe heeft de stijging van de gemiddelde temperaturen in Europa de landbouw in de regio beïnvloed?",
             "vraagNumber": 2,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/landbouw.jpg",
+            "alt": "landbouw",
             "openVraag": false,
             "juisteAntwoord": 1,
             "antwoorden": [
@@ -31,16 +31,16 @@
         {
             "vraag": "Welke rol spelen Europese steden in de wereldwijde klimaatcrisis en hoe passen zij zich aan de stijgende temperaturen aan?",
             "vraagNumber": 3,
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
+            "plaatje": "../../media/europa/infrastructuur.jpg",
+            "alt": "infrastructuur",
             "openVraag": true,
             "antwoorden": "Groene infrastructuur, Duurzaam transport, Energie-efficiëntie of Waterbeheer en -behoud"
         },
         {
             "vraag": "Hoe heeft klimaatverandering de frequentie en intensiteit van hittegolven in Zuid-Europa beïnvloed?",
             "vraagNumber": 4,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/hemel.jpg",
+            "alt": "hemel",
             "openVraag": false,
             "juisteAntwoord": 0,
             "antwoorden": [
@@ -53,8 +53,8 @@
         {
             "vraag": "Welke stappen ondernemen Europese landen om de koolstofemissies te verminderen en de effecten van klimaatverandering te verzachten?",
             "vraagNumber": 5,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/broeikasgassen.png",
+            "alt": "broeikasgassen",
             "openVraag": false,
             "juisteAntwoord": 2,
             "antwoorden": [
@@ -67,8 +67,8 @@
         {
             "vraag": "Hoe heeft het veranderende klimaat de biodiversiteit en ecosystemen in de bossen en natuurgebieden van Europa beïnvloed?",
             "vraagNumber": 6,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/natuur.jpg",
+            "alt": "natuur",
             "openVraag": false,
             "juisteAntwoord": 2,
             "antwoorden": [
@@ -81,16 +81,16 @@
         {
             "vraag": "Welke Europese landen zijn het meest kwetsbaar voor zeespiegelstijging door klimaatverandering, en welke maatregelen nemen zij om kustgebieden te beschermen?",
             "vraagNumber": 7,
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
+            "plaatje": "../../media/europa/hemel.jpg",
+            "alt": "hemel",
             "openVraag": true,
             "antwoorden": "Nederland, België en delen van het Verenigd Koninkrijk"
         },
         {
             "vraag": "Wat is de Europese Green Deal en hoe probeert deze de effecten van klimaatverandering in Europa tegen te gaan?",
             "vraagNumber": 8,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/natuur.jpg",
+            "alt": "natuur",
             "openVraag": false,
             "juisteAntwoord": 1,
             "antwoorden": [
@@ -101,10 +101,10 @@
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe veranderen extreme weersomstandigheden, zoals overstromingen en stormen, in frequentie en intensiteit in Europa door klimaatverandering?",
             "vraagNumber": 9,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/storm.jpg",
+            "alt": "storm",
             "openVraag": false,
             "juisteAntwoord": 3,
             "antwoorden": [
@@ -117,16 +117,16 @@
         {
             "vraag": "Op welke manieren ondersteunen Europese regeringen schone energie-innovatie om klimaatverandering tegen te gaan en de afhankelijkheid van fossiele brandstoffen te verminderen?",
             "vraagNumber": 10,
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
+            "plaatje": "../../media/europa/zonnepanelen.jpg",
+            "alt": "zonnepanelen",
             "openVraag": true,
             "antwoorden": "Subsidies en financiële steun, Onderzoek en ontwikkeling, Strikte wet- en regelgeving en Investeren in infrastructuur"
         },
         {
             "vraag": "Hoe beïnvloedt de opwarming van het klimaat in Europa de menselijke gezondheid, vooral in stedelijke gebieden?",
             "vraagNumber": 11,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/steden.jpg",
+            "alt": "steden",
             "openVraag": false,
             "juisteAntwoord": 0,
             "antwoorden": [
@@ -139,8 +139,8 @@
         {
             "vraag": "Hoe heeft de stijging van de temperaturen in de Alpen de wintertoerisme beïnvloed, en welke maatregelen worden genomen om de skitoerisme te beschermen?",
             "vraagNumber": 12,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/alpen.jpg",
+            "alt": "alpen",
             "openVraag": false,
             "juisteAntwoord": 2,
             "antwoorden": [
@@ -153,16 +153,16 @@
         {
             "vraag": "Hoe draagt ontbossing in Europa bij aan de wereldwijde opwarming, en wat wordt er gedaan om dit probleem aan te pakken?",
             "vraagNumber": 13,
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
+            "plaatje": "../../media/europa/natuur.jpg",
+            "alt": "natuur",
             "openVraag": true,
             "antwoorden": "Beleid ter bescherming van bossen, Herbebossingsprogramma’s, Versterking van het bosbeheer en Verhoogde Europese samenwerking"
         },
         {
             "vraag": "Wat zijn de sociale en economische gevolgen van klimaatgedreven migratie binnen Europa, vooral van landen in Zuid-Europa naar Noord-Europa?",
             "vraagNumber": 14,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../media/europa/steden.jpg",
+            "alt": "steden",
             "openVraag": false,
             "juisteAntwoord": 3,
             "antwoorden": [
@@ -175,8 +175,8 @@
         {
             "vraag": "Wat is uw mening over klimaat verandering in Europa?",
             "vraagNumber": 15,
-            "plaatje": "../../path/naar/plaatje.jpg",
-            "alt": "Alt text voor het plaatje",
+            "plaatje": "../../media/europa/question.jpeg",
+            "alt": "?",
             "openVraag": true,
             "antwoorden": "Eigen mening!"
         }

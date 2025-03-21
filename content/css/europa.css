@@ -201,7 +201,7 @@ content{
     "antwoord3 antwoord4";
 }
 
-#antwoord {
+#answer {
     display: flex;
     flex-direction: column;
     justify-content: center;

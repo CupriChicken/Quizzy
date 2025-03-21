@@ -1,106 +1,103 @@
 {
     "vragen": [
         {
-            "vraag": "placeholder",
+            "vraag": "Wat zijn de belangrijkste factoren die bijdragen aan de versnelde opwarming van het klimaat in Europa? ",
             "vraagNumber": 1,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 2,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Verhoogde zonnestraling",
+                "Afname van de zeewind",
+                "Toenemende broeikasgasemissies",
+                "Stijging van de oceaanwateren"
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe heeft de stijging van de gemiddelde temperaturen in Europa de landbouw in de regio beïnvloed?",
             "vraagNumber": 2,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 1,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Verbeterde oogstomstandigheden voor alle gewassen",
+                "Verhoogde risico's van droogte en waterschaarste",
+                "Verbeterde groei van graangewassen in het noorden van Europa",
+                "Verhoogde risico's van overstromingen"
             ]
         },
         {
-            "vraag": "Open test vraag",
+            "vraag": "Welke rol spelen Europese steden in de wereldwijde klimaatcrisis en hoe passen zij zich aan de stijgende temperaturen aan?",
             "vraagNumber": 3,
             "plaatje": "../../path/naar/plaatje.jpg",
             "alt": "Alt text voor het plaatje",
             "openVraag": true,
-            "antwoorden": "Dit is een open vraag"
+            "antwoorden": "Groene infrastructuur, Duurzaam transport, Energie-efficiëntie of Waterbeheer en -behoud"
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe heeft klimaatverandering de frequentie en intensiteit van hittegolven in Zuid-Europa beïnvloed?",
             "vraagNumber": 4,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
             "juisteAntwoord": 0,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Hittegolven komen vaker voor en zijn intensiever",
+                "Hittegolven komen vaker voor, maar zijn minder intens",
+                "Hittegolven komen minder vaak voor, maar zijn minder intens",
+                "Hittegolven komen helemaal niet meer voor in Zuid-Europa"
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Welke stappen ondernemen Europese landen om de koolstofemissies te verminderen en de effecten van klimaatverandering te verzachten?",
             "vraagNumber": 5,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 2,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Ze verlagen het gebruik van fossiele brandstoffen door massaal kernenergie te gebruiken",
+                "Ze implementeren strengere wetgeving voor de landbouwsector",
+                "Ze investeren in hernieuwbare energiebronnen zoals wind- en zonne-energie",
+                "Ze beperken het gebruik van elektrische voertuigen en bevorderen benzine- en dieselauto’s"
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe heeft het veranderende klimaat de biodiversiteit en ecosystemen in de bossen en natuurgebieden van Europa beïnvloed?",
             "vraagNumber": 6,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 2,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Het veranderende klimaat heeft geleid tot een grotere biodiversiteit in Europese bossen, omdat nieuwe plant- en diersoorten sneller hun weg vinden naar de regio.",
+                "Het klimaat heeft geen effect op de biodiversiteit van Europese bossen en natuurgebieden, aangezien de ecosystemen volledig stabiel blijven.",
+                "Veranderende temperaturen en neerslagpatronen hebben geleid tot het verdwijnen van sommige inheemse plant- en diersoorten, en de verspreiding van invasieve soorten, wat de biodiversiteit bedreigt.",
+                "Het veranderende klimaat heeft de bossen en natuurgebieden in Europa versterkt, met als gevolg dat ze beter in staat zijn om koolstof op te slaan en de biodiversiteit te behouden."
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Welke Europese landen zijn het meest kwetsbaar voor zeespiegelstijging door klimaatverandering, en welke maatregelen nemen zij om kustgebieden te beschermen?",
             "vraagNumber": 7,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../path/naar/plaatje.jpg",
+            "alt": "Alt text voor het plaatje",
             "openVraag": true,
-            "juisteAntwoord": 0,
-            "antwoorden": [
-                "placeholder"
-            ]
+            "antwoorden": "Nederland, België en delen van het Verenigd Koninkrijk"
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Wat is de Europese Green Deal en hoe probeert deze de effecten van klimaatverandering in Europa tegen te gaan?",
             "vraagNumber": 8,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 1,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "De Europese Green Deal richt zich uitsluitend op de bevordering van duurzame landbouw, zonder aandacht voor energieverbruik en industrie.",
+                "De Europese Green Deal stelt voor om Europa in 2050 klimaatneutraal te maken door de uitstoot van broeikasgassen drastisch te verlagen en hernieuwbare energie te bevorderen.",
+                "De Europese Green Deal stelt voor om alle auto's in Europa in 2030 te verbieden, inclusief elektrische voertuigen, om de CO2-uitstoot volledig te elimineren.",
+                "De Europese Green Deal moedigt alleen de oprichting van nieuwe natuurreservaten aan, zonder verder beleid voor de industrie of het energieverbruik."
             ]
         },
         {
@@ -109,88 +106,79 @@
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 3,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Door klimaatverandering nemen zowel de frequentie als de intensiteit van overstromingen en stormen in Europa af, wat leidt tot minder schade en verstoringen.",
+                "Klimaatverandering heeft geen effect op de frequentie of intensiteit van stormen en overstromingen in Europa.",
+                "Overstromingen en stormen worden minder intens maar komen vaker voor in Europa door klimaatverandering.",
+                "Extreme weersomstandigheden, zoals overstromingen en stormen, worden frequenter en intensiever in Europa door klimaatverandering, wat resulteert in meer schade en hogere kosten voor infrastructuur."
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Op welke manieren ondersteunen Europese regeringen schone energie-innovatie om klimaatverandering tegen te gaan en de afhankelijkheid van fossiele brandstoffen te verminderen?",
             "vraagNumber": 10,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../path/naar/plaatje.jpg",
+            "alt": "Alt text voor het plaatje",
             "openVraag": true,
-            "juisteAntwoord": 0,
-            "antwoorden": [
-                "placeholder"
-            ]
+            "antwoorden": "Subsidies en financiële steun, Onderzoek en ontwikkeling, Strikte wet- en regelgeving en Investeren in infrastructuur"
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe beïnvloedt de opwarming van het klimaat in Europa de menselijke gezondheid, vooral in stedelijke gebieden?",
             "vraagNumber": 11,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
             "juisteAntwoord": 0,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Door de stijgende temperaturen neemt het aantal hitte-gerelateerde gezondheidsproblemen, zoals uitdroging en hitteberoertes, toe, vooral in stedelijke gebieden waar de temperatuur vaak hoger is door het 'stedenhitte-eiland' effect.",
+                "De opwarming van het klimaat leidt tot een daling van luchtverontreiniging in stedelijke gebieden, wat de luchtkwaliteit verbetert en de gezondheid van de bewoners ten goede komt.",
+                "De opwarming van het klimaat heeft geen invloed op de menselijke gezondheid in stedelijke gebieden, aangezien de temperaturen in steden altijd constant blijven.",
+                "Steden ervaren minder ziekten door de opwarming van het klimaat, omdat de verhoogde temperatuur het immuunsysteem versterkt en mensen gezonder maakt."
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe heeft de stijging van de temperaturen in de Alpen de wintertoerisme beïnvloed, en welke maatregelen worden genomen om de skitoerisme te beschermen?",
             "vraagNumber": 12,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 2,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "De stijging van de temperaturen in de Alpen heeft geen invloed op het wintertoerisme, omdat de sneeuwval en temperaturen hetzelfde blijven.",
+                "De stijging van de temperaturen in de Alpen heeft geleid tot een toename van de sneeuwval, wat het wintertoerisme ten goede komt en de regio aantrekkelijker maakt voor skiërs.",
+                "Door de opwarming van de Alpen is er minder sneeuwval, wat de skitoerisme in de regio heeft verminderd. Als reactie daarop worden kunstmatige sneeuwproductie en winteractiviteiten op lagere hoogtes steeds gebruikelijker.",
+                "De stijging van de temperaturen heeft geen effect op het wintertoerisme in de Alpen, omdat de regio volledig overgestapt is op zomertoerisme en skigebieden gesloten zijn."
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Hoe draagt ontbossing in Europa bij aan de wereldwijde opwarming, en wat wordt er gedaan om dit probleem aan te pakken?",
             "vraagNumber": 13,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../path/naar/plaatje.jpg",
+            "alt": "Alt text voor het plaatje",
             "openVraag": true,
-            "juisteAntwoord": 0,
-            "antwoorden": [
-                "placeholder"
-            ]
+            "antwoorden": "Beleid ter bescherming van bossen, Herbebossingsprogramma’s, Versterking van het bosbeheer en Verhoogde Europese samenwerking"
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Wat zijn de sociale en economische gevolgen van klimaatgedreven migratie binnen Europa, vooral van landen in Zuid-Europa naar Noord-Europa?",
             "vraagNumber": 14,
             "plaatje": "../../media/boat.jpg",
             "alt": "boat",
             "openVraag": false,
-            "juisteAntwoord": 0,
+            "juisteAntwoord": 3,
             "antwoorden": [
-                "placeholder",
-                "placeholder",
-                "placeholder",
-                "placeholder"
+                "Klimaatgedreven migratie leidt tot een daling van de werkgelegenheid in Noord-Europa, omdat migranten vaak de werkgelegenheid in die regio's overnemen van de lokale bevolking.",
+                "De migratie van mensen uit Zuid-Europa naar Noord-Europa als gevolg van klimaatverandering kan leiden tot een toename van de sociale spanningen en conflicten, aangezien migranten mogelijk moeilijk integreren in de lokale gemeenschappen.",
+                "Klimaatgedreven migratie heeft geen significante impact op de sociale en economische situatie in Europa, omdat de meeste migranten tijdelijk verblijven in andere landen en niet bijdragen aan de economie.",
+                "Klimaatgedreven migratie heeft vooral positieve economische gevolgen voor Noord-Europese landen, omdat migranten vaak goedkope arbeidskrachten leveren die de lokale economie stimuleren en vergrijzing tegengaan."
             ]
         },
         {
-            "vraag": "placeholder",
+            "vraag": "Wat is uw mening over klimaat verandering in Europa?",
             "vraagNumber": 15,
-            "plaatje": "../../media/boat.jpg",
-            "alt": "boat",
+            "plaatje": "../../path/naar/plaatje.jpg",
+            "alt": "Alt text voor het plaatje",
             "openVraag": true,
-            "juisteAntwoord": 0,
-            "antwoorden": [
-                "placeholder"
-            ]
+            "antwoorden": "Eigen mening!"
         }
     ]
     }

@@ -4,3 +4,4 @@
 - [ ] Preload the images.
 
 # Done
+- [x] Make pages responsive.

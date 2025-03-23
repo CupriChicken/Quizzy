@@ -27,6 +27,7 @@ async function displayVraag() {
     const data = await getVragen();
 
     const huidigeVraag = data.vragen[huidigeVraagIndex];
+    const huidigeVraagDisplay = document.getElementById('huidigeVraag');
 
     if (huidigeVraagIndex >= data.vragen.length) {
         DisplayResultaten();
@@ -35,6 +36,7 @@ async function displayVraag() {
         image.setAttribute('src', data.vragen[huidigeVraagIndex].plaatje);
         image.setAttribute('alt', data.vragen[huidigeVraagIndex].alt);
         vraag.innerHTML = huidigeVraag.vraag;
+        huidigeVraagDisplay.innerHTML = `Vraag ${huidigeVraagIndex + 1} van ${data.vragen.length}`;
 
         if (huidigeVraag.openVraag == true) {
             meerKeuze.style.display = 'none';

@@ -330,3 +330,104 @@ textarea {
     font-family: 'madimione';
     font-size: 2em;
 }
+
+@media only screen and (max-width: 640px) {
+    body {
+        display: block;
+        margin: 0;
+    }
+    #vraagContainer {
+        margin: 0;
+        margin-left: 1em;
+        margin-top: 1em;
+        width: 90%;
+    }
+    #extraInfo {
+        width: 90%;
+    }
+    #left img {
+        width: 100%;
+    }
+    #infoText, #scores {
+        font-size: 0.8em;
+    }
+    #vraag {
+        font-size: 1em;
+    }
+    #antwoord1, #antwoord2, #antwoord3, #antwoord4 {
+        width: 37vw;
+    }
+    #antwoorden {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "antwoord1 antwoord2"
+        "antwoord3 antwoord4";
+    }
+    #scoreContainer {
+        font-size: 1.5em;
+    }
+    #resultaten h1 {
+        font-size: 1.5em;
+    }
+    #resultaten input {
+        width: 50vw;
+    }
+    #scoreOpslaan {
+        width: 50%;
+    }
+    #nakijken {
+        width: 50%;
+    }
+    #trophy {
+        width: 50%;
+    }
+    #goed, #fout {
+        font-size: 1em;
+    }
+    #juisteAntwoordContainer {
+        font-size: 1em;
+    }
+    #error {
+        font-size: 1em;
+    }
+    #scoreOpslaan {
+        font-size: 1em;
+    }
+    #nakijken {
+        font-size: 1em;
+    }
+    #antwoord {
+        width: 90%;
+    }
+    #imageContainer {
+        width: 50%;
+    }
+    #middle {
+        width: 100%;
+        height: 100%;
+    }
+    #left, #right {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    #left img{
+        display: none;
+    }
+    #extraInfo {
+        display: none;
+        margin: 0;
+        animation: fadeIn 1s;
+        margin-top: 1em;
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            left: 100%;
+        }
+        100% {
+            opacity: 1;
+            left: 0%;
+        }
+        
+    }
+}

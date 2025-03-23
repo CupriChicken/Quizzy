@@ -5,6 +5,7 @@
 
 body {
     background-image: url(../../media/earth.jpg);
+    background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -74,4 +75,19 @@ a {
     color: #fff;
     text-decoration: underline #fff;
     font-weight: bold;
+}
+@media only screen and (max-width: 640px) {
+    #container {
+        flex-direction: column;
+        margin: 0.5em;
+    }
+    #afrika, #zuid_amerika, #europa {
+        width: 90vw;
+        height: 30vh;
+        margin-bottom: 1em;
+
+    }
+    .card {
+        font-size: 1rem;
+    }
 }

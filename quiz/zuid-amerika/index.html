@@ -3,24 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../content/css/zuid-amerika.css">
+    <title>Quizzy | Zuid-Amerika</title>
+    <link rel="shortcut icon" href="../../media/icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../../content/css/fonts.css">
-    <script defer src="../../content/js/zuid-amerika.js"></script>
+    <link rel="stylesheet" href="../../content/css/zuid-amerika.css">
+    <script src="../../content/js/zuid-amerika.js"></script>
 </head>
 <body>
-    <header id="header"><a href="../../index.html">Home</a>
-                <nav>
-                <ul id="main-nav">
-                    <li>
-                        <a href="#">Menu</a>
-                        <ul id="dropdown-nav">
-                            <li><a href="../afrika/index.html" id="dropdown">Afrika</a></li>
-                            <li><a href="../europa/index.html" id="dropdown">Europa</a></li>
-                            <li><a href="../zuid-amerika/index.html" id="dropdown">Zuid-Amerika</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav></header>
-    <h1 id="intro">Welkom in de Quiz over klimaat verandering in Zuid-Amerika!</h1>
+    <div id="left">
+        <img src="../../media/south_america.jpg" alt="">
+        <div id="infoText">
+            <h1>Quizzy | Zuid-Amerika</h1>
+            <hr>
+            Welkom bij de quiz over klimaatverandering in Zuid-Amerika!
+            <br>
+            Als je extra informatie wil over klimaatverandering in Zuid-Amerika kan je die hier vinden:
+            <span  class="button" onclick="toggleInfo()">Extra informatie</span>
+            <hr>
+            <a href="../../" class="button">Terug naar de homepagina</a>
+            <a href="../europa/" class="button">Quiz over klimaatverandering in europa</a>
+            <a href="../afrika/index.html" class="button">Quiz over klimaatverandering in Afrika</a>
+        </div>
+    </div>
+
+    <main id="middle">
+        <div id="vraagContainer">
+            <div id="image">
+                <img src="../../media/droogte.jpg" alt="">
+            </div>
+            <div id="vraag">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic illum tenetur? Odit labore deleniti magni minus hic eius possimus cumque dicta, autem debitis facere ab sequi natus cum molestias?
+            </div>
+            <div id="antwoord">
+                <textarea name="antwoord" id="antwoord" placeholder="Vul hier je antwoord in..."></textarea>
+                <div id="nakijken">
+                    Controleer je antwoord
+                </div>
+            </div>
+            <div id="antwoorden">
+                <div id="antwoord1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum nesciunt non nobis dignissimos quo hic, minima aliquam eius ut recusandae accusamus dolore delectus obcaecati quasi sed molestiae, temporibus beatae?</div>
+                <div id="antwoord2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore libero laborum expedita harum ratione aliquid animi nemo sint distinctio voluptas nihil nam quam, tenetur dolor sunt recusandae! Consequatur, tenetur enim?</div>
+                <div id="antwoord3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quis nam suscipit modi nulla pariatur eligendi tempore dignissimos, iusto, ullam excepturi veniam itaque consequatur totam impedit voluptatem architecto placeat id.</div>
+                <div id="antwoord4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt vero nemo natus deleniti at, expedita veritatis hic ducimus quasi sapiente totam praesentium, illo neque ipsa iure asperiores! Similique, nihil.</div>
+            </div>
+        </div>
+    </main>
+
+    <div id="right">
+        <div id="resultaat">
+            <H1>Resultaat:</H1>
+            <hr>
+        </div>
+    </div>
+</body>
 </html>

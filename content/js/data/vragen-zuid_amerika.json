@@ -1,0 +1,169 @@
+{
+    "vragen": [
+        {
+            "vraag": "Welke invloed heeft ontbossing op het klimaat in Zuid-Amerika?",
+            "plaatje": "../../media/zuid-amerika/ontbossing.jpg",
+            "alt": "Een kaart van Afrika met de gebieden aangeven die worden bedreigd door woestijnvorming.",
+            "openVraag": false,
+            "juisteAntwoord": 0,
+            "antwoorden": [
+                "Minder CO₂-opname en versnelde opwarming",
+                "Toename van biodiversiteit",
+                "Betere waterregulatie",
+                "Minder broeikasgassen"
+            ]
+        },
+        {
+            "vraag": "Wat is een groot gevolg van het smelten van gletsjers in de Andes?",
+            "plaatje": "../../media/zuid-amerika/Andes.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden": [
+                "Meer landbouwgrond beschikbaar",
+                "Minder watertekorten",
+                "Verminderde zoetwatervoorziening",
+                "Groei van regenwouden"
+            ]
+        },
+        {
+            "vraag": "Wat is El Niño en hoe beïnvloedt het Zuid-Amerika?",
+            "plaatje": "../../media/zuid-amerika/Overstromingen-Kenia-Rode-Kruis.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": false,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Een afkoeling van het oceaanwater die droogte veroorzaakt",
+                "Een opwarming van het oceaanwater die extreme weersomstandigheden veroorzaakt",
+                "Een cycloon die Zuid-Amerika jaarlijks treft",
+                "Een aardbevingsfenomeen"
+            ]
+        },
+        {
+            "vraag": "Hoe beïnvloedt klimaatverandering de biodiversiteit in het Amazonegebied?",
+            "plaatje": "../../media/zuid-amerika/AdobeStock_513577824_522660_reduced.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden": [
+                "Het aantal diersoorten neemt toe",
+                "Er verandert niets voor de biodiversiteit",
+                "Veel dier- en plantensoorten worden bedreigd door habitatverlies",
+                "Klimaatverandering heeft alleen invloed op het weer, niet op de natuur"
+            ]
+        },
+        {
+            "vraag": "Wat is een mogelijke oplossing tegen ontbossing in Zuid-Amerika?",
+            "plaatje": "../../media/zuid-amerika/Herbebossing.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door overbegrazing.",
+            "openVraag": false,
+            "juisteAntwoord": 3,
+            "antwoorden": [
+                "Meer landbouwgrond gebruiken",
+                "Illegale houtkap stimuleren",
+                "Niets doen en wachten op natuurlijke regeneratie",
+                "Duurzaam bosbeheer en herbebossing stimuleren"
+            ]
+        },
+        {
+            "vraag": "Waarom is de stijging van de zeespiegel een bedreiging voor kustgebieden in Zuid-Amerika?",
+            "plaatje": "../../media/zuid-amerika/Overstromingen-Kenia-Rode-Kruis.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door overbegrazing.",
+            "openVraag": false,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Meer landbouwmogelijkheden",
+                "Overstromingen en verlies van leefgebied",
+                "Betere visserijopbrengsten",
+                "Toename van tropische regenwouden"
+            ]
+        },
+        {
+            "vraag": "Hoe beïnvloedt de droogte in Zuid-Amerika de landbouwproductie?",
+            "plaatje": "../../media/zuid-amerika/vineyard-716443_640.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door overbegrazing.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden" : [
+                "Hogere voedselproductie",
+                "Meer regenval zorgt voor betere oogsten",
+                "Verminderde oogsten en mislukte landbouwgronden",
+                "Geen effect op de landbouw"
+            ]
+        },
+        {
+            "vraag": "Wat is een belangrijk effect van bosbranden in het Amazonegebied?",
+            "plaatje": "../../media/zuid-amerika/forestfiresbolivia_w9mzkb.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verzilting, de oogst staat er slecht bij.",
+            "openVraag": false,
+            "juisteAntwoord": 2,
+            "antwoorden": [
+                "Betere groeiomstandigheden voor bomen",
+                "Minder luchtvervuiling",
+                "Toename van CO₂ in de atmosfeer en vernietiging van biodiversiteit",
+                "Toename van regenva"
+            ]
+        },
+        {
+            "vraag": "Welke rol spelen mangroves in de strijd tegen klimaatverandering?",
+            "plaatje": "../../media/zuid-amerika/boomwortels-de-jungle-van-amazone-een-sprookjesbos-selectieve-focus-aard-zuid-amerika-subtropen-159465445.webp",
+            "alt": "Een foto van een klein hok met veel geiten er in.",
+            "openVraag": false,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Ze versnellen erosie",
+                "Ze beschermen kustgebieden tegen overstromingen en slaan koolstof op",
+                "Ze verhogen het zoutgehalte in de grond",
+                "Ze zorgen voor een afname van biodiversiteit"
+            ]
+        },
+        {
+            "vraag": "Hoe draagt veeteelt bij aan klimaatverandering in Zuid-Amerika?",
+            "plaatje": "../../media/zuid-amerika/maxresdefault.jpg",
+            "alt": "Een foto van een stuk land dat is aangetast door verwoestijning.",
+            "openVraag": false,
+            "juisteAntwoord": 1,
+            "antwoorden": [
+                "Verlaagt de temperatuur van de aarde",
+                "Methaanuitstoot en ontbossing voor weilanden",
+                "Zorgt voor minder broeikasgassen",
+                "Geen effect op het klimaat"
+            ]
+        },
+        {
+            "vraag": "Waarom is ontbossing een groot probleem voor het wereldwijde klimaat?",
+            "plaatje": "../../media/zuid-amerika/ontbossing.jpg",
+            "alt": "Alt text voor het plaatje",
+            "openVraag": true,
+            "antwoorden": "Ontbossing vermindert de opname van CO₂, wat bijdraagt aan de opwarming van de aarde."
+        },
+        {
+            "vraag": "Hoe beïnvloedt klimaatverandering de waterbronnen in Zuid-Amerika?",
+            "plaatje": "../../media/zuid-amerika/kaieteur-falls.webp",
+            "alt": "Alt text voor het plaatje",
+            "openVraag": true,
+            "antwoorden": "Smeltende gletsjers en droogte verminderen de beschikbaarheid van drink- en irrigatiewater."
+        },
+        {
+            "vraag": "Wat zijn de belangrijkste oorzaken van de ontbossing in het Amazonegebied",
+            "plaatje": "../../media/zuid-amerika/ontbossing.jpg",
+            "alt": "Alt text voor het plaatje",
+            "openVraag": true,
+            "antwoorden": "Illegale houtkap, landbouwuitbreiding, veeteelt en mijnbouw zijn grote oorzaken."
+        },    
+        {
+            "vraag": "Welke maatregelen kunnen regeringen nemen om de gevolgen van klimaatverandering in Zuid-Amerika te beperken?",
+            "plaatje": "../../media/zuid-amerika/Farmer-Latin-America-1200x540-c-default.jpg",
+            "alt": "Alt text voor het plaatje",
+            "openVraag": true,
+            "antwoorden": "Strengere milieuwetgeving, herbebossingsprojecten en investeringen in duurzame energie"
+        },
+        {
+            "vraag": "Hoe beïnvloedt klimaatverandering de levens van inheemse gemeenschappen in het Amazonegebied?",
+            "plaatje": "../../media/zuid-amerika/1105-defying-brazilian-government-indigenous-group-proceeds-with-demarcation-of-amazonian-territory.jpg",
+            "alt": "Alt text voor het plaatje",
+            "openVraag": true,
+            "antwoorden": "Verlies van leefgebied, verminderde toegang tot schoon water en voedsel, en verstoring van traditionele levenswijzen."
+        }
+    ]
+}
